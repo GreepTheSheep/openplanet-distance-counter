@@ -1,0 +1,12 @@
+[meta]
+name = "Distance Counter"
+author = "Greep"
+category = "Utilities"
+
+siteid = 81
+version = "1.4"
+
+blocks = [ "Plugin_DistanceCounter" ]
+
+[script]
+imports = [ "Icons.as" ]
