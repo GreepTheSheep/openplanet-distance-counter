@@ -62,7 +62,7 @@ void Update(float dt) {
   if(cast<CSmArenaClient>(GetApp().CurrentPlayground) !is null) {
         CSmArenaClient@ playground = cast<CSmArenaClient>(GetApp().CurrentPlayground);
         if(cast<CSmArenaClient>(GetApp().CurrentPlayground).GameTerminals.Length <= 0
-        || cast<CSmArenaClient>(GetApp().CurrentPlayground).GameTerminals[0].UISequence_Current != CGameTerminal::ESGamePlaygroundUIConfig__EUISequence::Playing
+        || cast<CSmArenaClient>(GetApp().CurrentPlayground).GameTerminals[0].UISequence_Current != SGamePlaygroundUIConfig::EUISequence::Playing
         || cast<CSmPlayer>(cast<CSmArenaClient>(GetApp().CurrentPlayground).GameTerminals[0].GUIPlayer) is null
         || cast<CSmArenaClient>(GetApp().CurrentPlayground).Arena is null) {
             inGame = false;
